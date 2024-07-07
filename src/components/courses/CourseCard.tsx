@@ -26,7 +26,7 @@ const CourseCard = ({ subject}: { subject: any },) => {
                     </ul>
                 }
             </div>
-            <div className='font-bold p-2'>Note: First 10 student only</div>
+            <div className='font-bold p-2 text-[#FBA628]'><b className='text-red-400'>Note:</b> First 10 student only</div>
         </div>
     );
 };

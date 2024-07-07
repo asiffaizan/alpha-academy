@@ -4,21 +4,28 @@ import Image from 'next/image';
 
 const Mentor = () => {
     return (
-        <div className='pt-52 pb-20'>
+        <div id='mentors' className='pt-20 pb-20'>
             <h1 className='text-center text-6xl font-bold pb-20'>Explore Our <span className='text-[#FBA628]'>Mentors</span></h1>
 
-            <div className='grid grid-cols-3 gap-3 w-[80%] m-auto'>
+            <div className='grid grid-cols-4 gap-3 w-[80%] m-auto'>
                 {mentors && 
                  mentors.map((mentor:any)=>(
                     <div key={mentor.id} className='rounded-2xl text-center bg-black text-white p-2'>
                         <h1 className='text-3xl p-2 pb-6'>{mentor.name}</h1>
                         <div className='flex flex-row justify-center text-center mb-1'>
-                            <Image width={30} height={30} src={mentor.image} alt={mentor.name} />
+                            <Image width={40} height={40} src={mentor.image} alt={mentor.name} />
                         </div>
-                        <h4 className='text-[#FBA628]'><b>{mentor.institute}</b></h4>
-                        <h5 className='text-[#FBA628]'><small>{mentor.department}</small></h5>
+                        <div className='pt-1'>
+                            <h4 className='text-[#FBA628]'><b>{mentor.institute}</b></h4>
+                            <h5 className='leading-3'><small>Department: <span className='text-[#FBA628]'>{mentor.department}</span></small></h5>
+                        </div>
                         <br />
-                        <h6>Experience: <b>{mentor.experience}</b></h6>
+                        <h6>Experience: <b>{mentor.experience}</b></h6>                      
+                        {mentor.specialty &&
+                            <div>
+                                <h4 className='text-red-400'><b>{mentor.specialty}</b></h4>
+                            </div>
+                        }
                     </div>
                 ))}
             </div>
