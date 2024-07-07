@@ -15,7 +15,7 @@ function Footer() {
             />
         </Link>
       </div>
-      <h1><b>© Alpha Academy, Inc. 2024. All Right Reserved</b></h1>
+      <h1><b>© Alpha Academy, Inc. 2024. All Rights Reserved</b></h1>
     </div>
   )
 }

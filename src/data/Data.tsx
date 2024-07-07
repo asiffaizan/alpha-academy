@@ -6,7 +6,7 @@ export const mentors = [
         institute: 'Sir Salimullah Medical Collage (SSMC)',
         department: 'MBBS',
         experience: "3 years+",
-        image: "/util/mentors/Sir_Salimullah_Medical_College_Logo.svg",
+        image: "/util/mentors/Sir_Salimullah_Medical_College.svg",
     },
     {
         id: 2,
