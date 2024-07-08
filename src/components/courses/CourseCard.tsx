@@ -5,8 +5,10 @@ const CourseCard = ({ subject}: { subject: any },) => {
     return (
         <div className='shadow-xl rounded-lg'>
             <div className='relative'>
-                <div className='text-left bg-green-200 w-1/2 mt-5 p-2'>
-                    <h1 className='text-3xl font-bold'>{subject.title}</h1>
+                <div className='bg-green-200 text-left w-1/2 md:w-2/3 lg:w-1/2 mt-5 p-2'>
+                    <h1 className='text-2xl lg:text-3xl font-bold'>
+                        {subject.title}
+                    </h1>
                     <h6 className='font-bold'><small>{subject.duration}</small></h6>
                 </div>
                 <div className='flex flex-row justify-center mt-8 pt-7 relative'>

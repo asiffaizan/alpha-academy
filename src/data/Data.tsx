@@ -1,5 +1,14 @@
 export const mentors = [
     {
+        id: 0,
+        sub: "Physics",
+        name: "Parvage",
+        institute: 'Bangladesh University of Engineering(BUET)',
+        department: 'CSE',
+        experience: "8 years+",
+        image: "/util/mentors/BUET.svg",
+    },
+    {
         id: 1,
         sub: "Biology",
         name: "Dr. Nadim",
@@ -63,15 +72,6 @@ export const mentors = [
         department: 'Mathematics',
         experience: "6 years+",
         image: "/util/mentors/kngc.png",
-    },
-    {
-        id: 8,
-        sub: "ICT",
-        name: "Ahnaf",
-        institute: 'Bangladesh University',
-        department: 'CSE',
-        experience: "7 years+",
-        image: "/util/mentors/BU.png",
     }
 ];
 

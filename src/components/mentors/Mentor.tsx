@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const Mentor = () => {
     return (
-        <div id='mentors' className='pt-20 pb-20'>
-            <h1 className='text-center text-6xl font-bold pb-20'>Explore Our <span className='text-[#FBA628]'>Mentors</span></h1>
+        <div id='mentors' className='pt-10 md:pt-20 pb-20'>
+            <h1 className='text-center text-3xl md:text-6xl font-bold pb-10 md:pb-20'>Explore Our <span className='text-[#FBA628]'>Mentors</span></h1>
 
-            <div className='grid grid-cols-4 gap-3 w-[80%] m-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 w-[80%] m-auto'>
                 {mentors && 
                  mentors.map((mentor:any)=>(
                     <div key={mentor.id} className='rounded-2xl text-center bg-black text-white p-2'>
