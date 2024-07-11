@@ -2,7 +2,7 @@ export const mentors = [
     {
         id: 0,
         sub: "Physics",
-        name: "Parvage",
+        name: "Murad",
         institute: 'Bangladesh University of Engineering(BUET)',
         department: 'CSE',
         experience: "8 years+",
@@ -44,7 +44,7 @@ export const mentors = [
         institute: 'Jahangirnagar University',
         department: 'Pharmacy',
         experience: "6 years+",
-        image: "/util/mentors/JU.jpg",
+        image: "/util/mentors/JU.png",
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ export const mentors = [
         institute: 'Jahangirnagar University',
         department: 'Accounting',
         experience: "6 years",
-        image: "/util/mentors/JU.jpg",
+        image: "/util/mentors/JU.png",
     },
     {
         id: 6,
@@ -91,7 +91,7 @@ export const subjects = [
         title: "Biology",
         duration: "3 days/week",
         price: 1500,
-        special_price: 1000,
+        special_price: 800,
         price_duration: 'month',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']
@@ -101,7 +101,7 @@ export const subjects = [
         title: "Chemistry",
         duration: "3 days/week",
         price: 1500,
-        special_price: 1000,
+        special_price: 800,
         price_duration: 'month',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']
@@ -111,7 +111,7 @@ export const subjects = [
         title: "English",
         duration: "4 months course",
         price: 1500,
-        special_price: 1000,
+        special_price: 800,
         price_duration: 'course',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']
@@ -121,7 +121,7 @@ export const subjects = [
         title: "Physics",
         duration: "3 days/week",
         price: 1500,
-        special_price: 850,
+        special_price: 700,
         price_duration: 'month',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']
@@ -131,7 +131,7 @@ export const subjects = [
         title: "ICT",
         duration: "4 months course",
         price: 1500,
-        special_price: 900,
+        special_price: 800,
         price_duration: 'course',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']
@@ -141,7 +141,7 @@ export const subjects = [
         title: "Mathematics",
         duration: "3 days/week",
         price: 1500,
-        special_price: 800,
+        special_price: 700,
         price_duration: 'month',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']
@@ -151,7 +151,7 @@ export const subjects = [
         title: "Accounting",
         duration: "3 days/week",
         price: 1500,
-        special_price: 1000,
+        special_price: 800,
         price_duration: 'month',
         description: "This course covers basic biology concepts",
         learn: ['MCQ test', 'Short answer test','math solve', 'test paper solve class']

@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Mentor from "@/components/mentors/Mentor";
 import Footer from "@/components/Footer";
 import MobileNav from "@/components/MobileNav";
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
  
@@ -12,11 +13,12 @@ export default function Home() {
       <div className="hidden lg:block">
         <Nav/>
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden w-full">
         <MobileNav/>
       </div>
       <Hero/>
       <Mentor/>
+      <AboutUs />
       <Courses/>
       <Footer/>
     </main>

@@ -3,25 +3,26 @@ import React from 'react';
 const CourseCard = ({ subject}: { subject: any },) => {
     
     return (
-        <div className='shadow-xl rounded-lg'>
-            <div className='relative'>
-                <div className='bg-green-200 text-left w-1/2 md:w-2/3 lg:w-1/2 mt-5 p-2'>
+        <div className='rounded-3xl text-center bg-black text-white p-5'>
+            <div className='text-center'>
+                <div className='text-[#FBA628]'>
                     <h1 className='text-2xl lg:text-3xl font-bold'>
                         {subject.title}
                     </h1>
                     <h6 className='font-bold'><small>{subject.duration}</small></h6>
                 </div>
-                <div className='flex flex-row justify-center mt-8 pt-7 relative'>
-                    <sup className='text-3xl font-bold absolute top-0 right-28'>{subject.special_price}tk</sup>
+                <div className='flex flex-row justify-center mt-5 mb-8 pt-7 relative'>
+                    <sup className='text-4xl font-bold absolute top-[-5px] right-28'>{subject.special_price}tk</sup>
                     <h1 className='font-bold'>
                         <span className='line-through text-2xl text-red-400'>{subject.price}tk</span>
                         <sub>/{subject.price_duration}</sub>
                     </h1>
                 </div>
             </div>
-            <div className='p-3 text-center'>
+            <hr className='w-[90%] m-auto bg-slate-400' />
+            <div className='p-3 pl-24 text-left'>
                 {subject.learn &&
-                    <ul className='pt-3'>
+                    <ul className='pt-3 list-disc'>
                         {subject.learn.map((l:any) => {
                             return <li key={l}>{l}</li>;
                         })}
