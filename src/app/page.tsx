@@ -18,7 +18,9 @@ export default function Home() {
       </div>
       <Hero/>
       <Mentor/>
-      <AboutUs />
+      <div className="hidden md:block">
+        <AboutUs />
+      </div>
       <Courses/>
       <Footer/>
     </main>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from '@/utils/alpha-academy logo.png';
 import Palestine from '@/utils/palestine.png';
+import { Icon } from '@iconify/react';
 
 function Footer() {
   return (
@@ -26,8 +27,21 @@ function Footer() {
           alt="Palestine"
         />
       </div>
-      <div className="text-[#FBA628]">
-        <p><b>01537144364, 017</b></p>
+      <div className="text-[#FBA628] flex flex-row justify-center items-center">
+        <Icon icon="gg:phone" className="text-white text-xl" />
+        <p><b>+880-1400430723, +880-1834259021</b></p>
+      </div>
+      <div className="text-[#FBA628] flex flex-row justify-center items-center">
+        <Icon icon="material-symbols-light:mail" className="text-white text-xl" />
+        <p><b>alphaacademy247@gmail.com</b></p>
+      </div>
+      <div className="text-[#FBA628] flex flex-row justify-center items-center">
+        <Icon icon="icon-park-solid:youtube" className="text-white text-xl" />
+        <p><b>Alpha Academy</b></p>
+      </div>
+      <div className="text-[#FBA628] flex flex-row justify-center items-center">
+        <Icon icon="ri:facebook-fill" className="text-white text-xl" />
+        <p><b>@AlphaAcademy25</b></p>
       </div>
     </div>
   )

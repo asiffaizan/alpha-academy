@@ -1,12 +1,12 @@
 import Image from "next/image";
 import logo from '@/utils/alpha-academy logo2.png';
-import icon from '../app/favicon.ico';
 import Link from "next/link";
+import { Icon } from '@iconify/react';
 
 
 const Nav = () => {
     return (
-        <nav className="p-3 bg-[#232021] flex flex-row justify-between items-center text-slate-50 fixed w-full">
+        <nav className="p-3 bg-[#232021] flex flex-row justify-between items-center text-slate-50 fixed w-full z-50">
             <Image
             height={150}
             width={150}
@@ -21,8 +21,8 @@ const Nav = () => {
                 <Link href='#contact-us' className="p-2">Contact Us</Link>
             </div>
             <div className="flex flex-row justify-between items-center p-2">
-                <div><Image height={30} width={30} src={icon} alt="hi"/></div>
-                <div>+880-01537144364</div>
+                <Icon icon="gg:phone" />
+                <div className="ml-1">+880-1308735850</div>
             </div>
         </nav>
     );
